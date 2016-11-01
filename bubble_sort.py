@@ -19,3 +19,6 @@ if __name__ == '__main__':
     list = [8,7,6,5,4,3,2,1]
     bubble_sort(list)
     print list
+    list = [2,7,9,3,4]
+    bubble_sort(list)
+    print list
