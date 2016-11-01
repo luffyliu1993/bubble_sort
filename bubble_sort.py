@@ -9,7 +9,7 @@ def bubble_sort(list):
         list[index] = list[index+1]
         list[index+1] = temp
         index += 1
-        if index == list_len-1:
+        if index == list_len-1 or list[index] < list[index+1]:
             index = 0
 
 if __name__ == '__main__':
