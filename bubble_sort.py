@@ -1,4 +1,6 @@
 import pdb
+from random import randint
+
 def bubble_sort(list):
     list_len = len(list)
     if list_len <= 1:
@@ -22,5 +24,11 @@ if __name__ == '__main__':
     bubble_sort(list)
     print list
     list = [6,5,3,1,8,7,2,4]
+    bubble_sort(list)
+    print list
+    list = []
+    for i in range(200):
+        list.append(randint(1,200))
+    print list
     bubble_sort(list)
     print list
