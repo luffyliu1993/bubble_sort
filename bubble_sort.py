@@ -32,3 +32,6 @@ if __name__ == '__main__':
     print list
     bubble_sort(list)
     print list
+    list = [10,25,694,2,1,3,6,5,4]
+    bubble_sort(list)
+    print list
